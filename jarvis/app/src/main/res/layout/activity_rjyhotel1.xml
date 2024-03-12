@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pexels_no_name_66997"
+    tools:context=".rjyhotel1">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="226dp"
+        android:layout_height="225dp"
+        android:src="@drawable/rjyhtl1_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/rjyhtl1_removebg_preview"
+        tools:srcCompat="@drawable/rjyhtl1_removebg_preview" />"
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="252dp"
+        android:layout_height="227dp"
+        android:src="@drawable/vivek1_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538"
+        app:srcCompat="@drawable/vivek1_removebg_preview"
+        tools:srcCompat="@drawable/vivek1_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="217dp"
+        android:layout_height="223dp"
+        android:src="@drawable/bobbattu_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        app:srcCompat="@drawable/bobbattu_removebg_preview"
+        tools:srcCompat="@drawable/bobbattu_removebg_preview" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:text="Rose Milk"
+        android:onClick="navigateToNextActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:text="vivek"
+        android:onClick="navigateToNextActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:text="Bobbattu"
+        android:onClick="navigateToNextActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+</androidx.constraintlayout.widget.ConstraintLayout>

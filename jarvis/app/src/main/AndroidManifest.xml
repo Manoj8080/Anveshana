@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Anveshana"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kakinada"
+            android:exported="false" />
+        <activity
+            android:name=".yanam"
+            android:exported="false" />
+        <activity
+            android:name=".amp"
+            android:exported="false" />
+        <activity
+            android:name=".vindu"
+            android:exported="false" />
+        <activity
+            android:name=".bhaskara"
+            android:exported="false" />
+        <activity
+            android:name=".rktiffin"
+            android:exported="false" />
+        <activity
+            android:name=".rvmhtl1"
+            android:exported="false" />
+        <activity
+            android:name=".bobbattlu"
+            android:exported="false" />
+        <activity
+            android:name=".vivek"
+            android:exported="false" />
+        <activity
+            android:name=".rosemilk"
+            android:exported="false" />
+        <activity
+            android:name=".rjyhotel1"
+            android:exported="false" />
+        <activity
+            android:name=".Jalebi"
+            android:exported="false" />
+        <activity
+            android:name=".sivacoolhome"
+            android:exported="false" />
+        <activity
+            android:name=".vishnusri"
+            android:exported="false" />
+        <activity
+            android:name=".hotels"
+            android:exported="false" />
+        <activity
+            android:name=".places"
+            android:exported="false" />
+        <activity
+            android:name=".food"
+            android:exported="false" />
+        <activity
+            android:name=".open"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

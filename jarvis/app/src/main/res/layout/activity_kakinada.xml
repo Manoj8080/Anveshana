@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f5"
+    tools:context=".kakinada">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="386dp"
+        android:layout_height="415dp"
+        android:src="@drawable/kkd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/kkd"
+        tools:srcCompat="@drawable/kkd" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="163dp"
+        android:text="Kakinada (formerly called Kakinandiwada, Coringa, and Cocanada; listenⓘ) is the sixth largest city of the Indian state of Andhra Pradesh and serves as the district headquarters of the Kakinada District.[6] It lies on the coast of the Bay of Bengal."
+        android:textColor="#080808"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="173dp"
+        android:layout_height="71dp"
+        android:text="Directions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+</androidx.constraintlayout.widget.ConstraintLayout>
